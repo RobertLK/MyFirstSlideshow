@@ -1,5 +1,5 @@
 # Yoti Android Technical Tests
-### Document version 1.0.0
+### Document version 1.1.1
 
 Please read this document entirely before continuing the exercise. Failure to comply to these rules will result in the forfeit your application.  
 
@@ -16,10 +16,12 @@ Do:
 - Use when possible a monospaced font (Hack, Anonymous Pro, Menlo, Monaco, …)
 - Reply in English
 
+## Exercise I
+**Perform a Code Review of https://github.com/RobertLK/MyFirstSlideshow/pull/1**
+
 This first exercise is rather simple and should take at most one hour.  
-Depending on which team you apply to, you should get a specific public repo where some code is present. (Do not worry, this is not how we code at Yoti)  
-The README should tell you what the project is trying to achieve and what are the limitations.  
-You should send us a code review of the first pull request on the list. Each comment should have the one of following format :
+You should send us a code review of the first pull request on the list. Each comment should have
+the one of following format :
 ```
 <filename>:<linenumber> - “<your comment>”
 e.g:
@@ -37,8 +39,12 @@ MyFeature - “Should be renamed to ASCIICat”
 ``` 
 
 Don’t limit your PR review to “this is bad”, please explain why and provide a better solution (in pseudo code) as you would explain it to another developer.  
+If you're not familiar with the process of Code Review, there are a number of good articles such [this one](https://blog.fogcreek.com/effective-code-reviews-9-tips-from-a-converted-skeptic/).  
 We are not looking for an (re)implementation of the presented code at this stage.  
 
+
+## Exercise II
+**Implement https://github.com/RobertLK/MyFirstSlideshow/issues/2**
 
 The second exercise is described in the issues tab on the github project. Don’t start it before receiving the feedback of your review of the first exercise.  
 Re-implement the project as if the feature was given to you.  
@@ -77,3 +83,4 @@ The two areas will work the same way. Each of them will have a button to cycle t
 The branch "slideshow" is currently respecting the above "specifications" but with some caveats.
 
 This is an Android port of our iOS exercise at https://github.com/CharlesVu/MyFirstSlideshow
+
