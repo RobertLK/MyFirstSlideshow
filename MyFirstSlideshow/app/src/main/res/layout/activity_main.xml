@@ -4,11 +4,87 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.charles.myfirstslideshow.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400px"
+            android:id="@+id/image1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:id="@+id/dots1dot1"
+                android:layout_width="100px"
+                android:layout_height="20px"
+                android:layout_weight="1"
+                android:background="#008000"/>
+            <View
+                android:id="@+id/dots1dot2"
+                android:layout_width="100px"
+                android:layout_height="20px"
+                android:layout_weight="1"
+                android:background="#008000"/>
+            <View
+                android:id="@+id/dots1dot3"
+                android:layout_width="100px"
+                android:layout_height="20px"
+                android:layout_weight="1"
+                android:background="#008000"/>
+            <View
+                android:id="@+id/dots1dot4"
+                android:layout_width="100px"
+                android:layout_height="20px"
+                android:layout_weight="1"
+                android:background="#008000"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next Image"
+            android:onClick="onButtonOneClicked"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400px"
+            android:id="@+id/image2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:id="@+id/dots2dot1"
+                android:layout_width="100px"
+                android:layout_height="20px"
+                android:layout_weight="1"
+                android:background="#008000"/>
+            <View
+                android:id="@+id/dots2dot2"
+                android:layout_width="100px"
+                android:layout_height="20px"
+                android:layout_weight="1"
+                android:background="#008000"/>
+            <View
+                android:id="@+id/dots2dot3"
+                android:layout_width="100px"
+                android:layout_height="20px"
+                android:layout_weight="1"
+                android:background="#008000"/>
+            <View
+                android:id="@+id/dots2dot4"
+                android:layout_width="100px"
+                android:layout_height="20px"
+                android:layout_weight="1"
+                android:background="#008000"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next Image"
+            android:onClick="onButtonTwoClicked"/>
+    </LinearLayout>
 
 </FrameLayout>
